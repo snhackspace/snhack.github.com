@@ -4,7 +4,7 @@
   <title><![CDATA[Category: tools | Swindon Hackspace]]></title>
   <link href="http://snhack.github.com/blog/categories/tools/atom.xml" rel="self"/>
   <link href="http://snhack.github.com/"/>
-  <updated>2013-04-04T17:20:59+01:00</updated>
+  <updated>2013-04-04T18:06:30+01:00</updated>
   <id>http://snhack.github.com/</id>
   <author>
     <name><![CDATA[Swindon Hackspace]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Resources for Using Git]]></title>
-    <link href="http://snhack.github.com/resources-for-using-git/"/>
+    <link href="http://snhack.github.com/blog/resources-for-using-git/"/>
     <updated>2012-09-29T20:35:00+01:00</updated>
-    <id>http://snhack.github.com/resources-for-using-git</id>
+    <id>http://snhack.github.com/blog/resources-for-using-git</id>
     <content type="html"><![CDATA[<p><em>cross posted from <a href="http://jmeosbn.github.com">http://jmeosbn.github.com</a></em></p>
 
 <p>Here&rsquo;s some basic resources for getting started pushing code to github.</p>
