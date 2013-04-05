@@ -33,4 +33,4 @@ Generate and preview your changes locally at ``http://localhost:4000``
 [source branch]: https://github.com/snhack/snhack.github.com/tree/source
 [setup instructions]: http://octopress.org/docs/setup/
 
-Commit your changes and submit a pull request to this repo.
+Commit changes to your fork and submit a pull request to this repo.
