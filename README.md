@@ -1,7 +1,7 @@
 snhack.github.com
 =================
 
-__Note:  this branch is overwritten during compilation.__
+__Note:  master branch is overwritten during compilation.__
 
 ---
 
