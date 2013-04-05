@@ -9,9 +9,6 @@ __Note:  master branch is overwritten during compilation.__
 
 [fork this repo] and follow the [setup instructions], substituting your own [source branch]
 
-(replace this step with `git pull` for subsequent changes)
-	
-
     git clone -b source git@github.com:yourusername/snhack.github.com.git snhack
   
 	# initialise the site, without installing the default theme.
@@ -20,6 +17,8 @@ __Note:  master branch is overwritten during compilation.__
     rbenv rehash    # If you use rbenv, rehash to be able to run the bundle command
     bundle install
 
+(replace this step with `git pull` for subsequent changes)
+	
 
 Create a [new post or page] (http://octopress.org/docs/blogging/)
 
