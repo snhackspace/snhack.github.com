@@ -4,7 +4,7 @@
   <title><![CDATA[Category: tty | Swindon Hackspace]]></title>
   <link href="http://snhack.github.com/blog/categories/tty/atom.xml" rel="self"/>
   <link href="http://snhack.github.com/"/>
-  <updated>2013-04-06T13:17:43+01:00</updated>
+  <updated>2013-04-06T13:21:36+01:00</updated>
   <id>http://snhack.github.com/</id>
   <author>
     <name><![CDATA[Swindon Hackspace]]></name>
@@ -15,10 +15,10 @@
   
   <entry>
     <title type="html"><![CDATA[TwitterToTeletype]]></title>
-    <link href="http://snhack.github.com/blog/TwitterToTeletype/"/>
+    <link href="http://snhack.github.com/blog/twittertoteletype/"/>
     <updated>2012-11-06T20:06:00+00:00</updated>
-    <id>http://snhack.github.com/blog/TwitterToTeletype</id>
-    <content type="html"><![CDATA[<p>The [Museum of Computing] (http://www.museum-of-computing.org.uk/) in Swindon has a working Teletype and a desire to get it to print out tweets as part of a display in the museum.  Since the [Swindon Hackspace] (https://groups.google.com/forum/?hl=en&amp;fromgroups=#!forum/swindon-hackspace) is based in the museum it was a perfect project for hackspace members.</p>
+    <id>http://snhack.github.com/blog/twittertoteletype</id>
+    <content type="html"><![CDATA[<p>The <a href="http://www.museum-of-computing.org.uk/">Museum of Computing</a> in Swindon has a working Teletype and a desire to get it to print out tweets as part of a display in the museum.  Since the [Swindon Hackspace] (https://groups.google.com/forum/?hl=en&amp;fromgroups=#!forum/swindon-hackspace) is based in the museum it was a perfect project for hackspace members.</p>
 
 <p><img src="https://github.com/snhack/TwitterToTeletype/wiki/images/Teletype.jpg" alt="Teletype" /></p>
 
