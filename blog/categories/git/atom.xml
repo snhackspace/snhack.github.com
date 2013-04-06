@@ -4,7 +4,7 @@
   <title><![CDATA[Category: git | Swindon Hackspace]]></title>
   <link href="http://snhack.github.com/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://snhack.github.com/"/>
-  <updated>2013-04-06T13:24:22+01:00</updated>
+  <updated>2013-04-06T13:28:52+01:00</updated>
   <id>http://snhack.github.com/</id>
   <author>
     <name><![CDATA[Swindon Hackspace]]></name>
@@ -32,6 +32,8 @@ $ git init
 Initialized empty Git repository in my-project/.git/
 </code></p>
 
+<!-- more -->
+
 <p>Add any new or changed files you want to track, then commit those changes to the repo.</p>
 
 <p><code>sh Add and commit changes http://git-scm.com/docs/git-add git-add
@@ -53,8 +55,6 @@ Date:   Sat Sep 29 23:30:20 2012 +0100</p>
 
 <pre><code>First Commit ```
 </code></pre>
-
-<!-- more -->
 
 <h2 id="documentation">documentation</h2>
 

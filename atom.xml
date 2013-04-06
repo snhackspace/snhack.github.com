@@ -4,7 +4,7 @@
   <title><![CDATA[Swindon Hackspace]]></title>
   <link href="http://snhack.github.com/atom.xml" rel="self"/>
   <link href="http://snhack.github.com/"/>
-  <updated>2013-04-06T13:24:22+01:00</updated>
+  <updated>2013-04-06T13:28:52+01:00</updated>
   <id>http://snhack.github.com/</id>
   <author>
     <name><![CDATA[Swindon Hackspace]]></name>
@@ -65,7 +65,7 @@
 <h1 id="more-information">More Information</h1>
 
 <ul>
-  <li>[Swindon Hackspace] (https://groups.google.com/forum/?hl=en&amp;fromgroups=#!forum/swindon-hackspace)</li>
+  <li><a href="https://groups.google.com/forum/?hl=en&amp;fromgroups=#!forum/swindon-hackspace">Swindon Hackspace</a></li>
   <li><a href="http://www.museum-of-computing.org.uk/">Museum of Computing</a></li>
   <li><a href="http://en.wikipedia.org/wiki/Teletype_Model_33">Model 33 Teletype on Wikipedia</a></li>
   <li><a href="http://en.wikipedia.org/wiki/Current_loop">Current loop on Wikipedia</a></li>
@@ -95,6 +95,8 @@
 </span><span class="line"><span class="nv">$ </span>git init
 </span><span class="line">Initialized empty Git repository in my-project/.git/
 </span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<!-- more -->
 
 <p>Add any new or changed files you want to track, then commit those changes to the repo.</p>
 
@@ -127,8 +129,6 @@
 </span><span class="line">
 </span><span class="line">    First Commit
 </span></code></pre></td></tr></table></div></figure></notextile></div>
-
-<!-- more -->
 
 <h2 id="documentation">documentation</h2>
 
