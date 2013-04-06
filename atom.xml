@@ -4,7 +4,7 @@
   <title><![CDATA[Swindon Hackspace]]></title>
   <link href="http://snhack.github.com/atom.xml" rel="self"/>
   <link href="http://snhack.github.com/"/>
-  <updated>2013-04-06T13:21:36+01:00</updated>
+  <updated>2013-04-06T13:24:22+01:00</updated>
   <id>http://snhack.github.com/</id>
   <author>
     <name><![CDATA[Swindon Hackspace]]></name>
@@ -14,11 +14,11 @@
 
   
   <entry>
-    <title type="html"><![CDATA[TwitterToTeletype]]></title>
+    <title type="html"><![CDATA[Twitter To Teletype]]></title>
     <link href="http://snhack.github.com/blog/twittertoteletype/"/>
     <updated>2012-11-06T20:06:00+00:00</updated>
     <id>http://snhack.github.com/blog/twittertoteletype</id>
-    <content type="html"><![CDATA[<p>The <a href="http://www.museum-of-computing.org.uk/">Museum of Computing</a> in Swindon has a working Teletype and a desire to get it to print out tweets as part of a display in the museum.  Since the [Swindon Hackspace] (https://groups.google.com/forum/?hl=en&amp;fromgroups=#!forum/swindon-hackspace) is based in the museum it was a perfect project for hackspace members.</p>
+    <content type="html"><![CDATA[<p>The <a href="http://www.museum-of-computing.org.uk/">Museum of Computing</a> in Swindon has a working Teletype and a desire to get it to print out tweets as part of a display in the museum.  Since the <a href="https://groups.google.com/forum/?hl=en&amp;fromgroups=#!forum/swindon-hackspace">Swindon Hackspace</a> is based in the museum it was a perfect project for hackspace members.</p>
 
 <p><img src="https://github.com/snhack/TwitterToTeletype/wiki/images/Teletype.jpg" alt="Teletype" /></p>
 
@@ -50,7 +50,8 @@
 
 <p>Because the teletype is a mechanical device which uses moving parts to decode the data it receives it has to be running continuously and hence makes a lot of noise even when not printing text.  In order to minimize the noise generated when the teletype wasn&rsquo;t printing anything a circuit was created using an ATTiny2313 (similar to the programmable chip used in an Arduino) and a relay to turn the power to the teletype on just before data was due to be sent and off once the printing was complete.  This chip was also programmed to bridge the connection from USB on the Raspberry Pi to the serial data that was needed to send to the current loop converter to talk to the teletype.</p>
 
-<p><img src="https://github.com/snhack/TwitterToTeletype/wiki/images/UsbSwitch.jpg" alt="USB Switch" /> <img src="https://github.com/snhack/TwitterToTeletype/wiki/images/UsbSwitch2.jpg" alt="USB Switch" /></p>
+<p><img src="https://github.com/snhack/TwitterToTeletype/wiki/images/UsbSwitch.jpg" alt="USB Switch" />
+<img src="https://github.com/snhack/TwitterToTeletype/wiki/images/UsbSwitch2.jpg" alt="USB Switch" /></p>
 
 <h1 id="getting-tweets-and-putting-it-all-together">Getting Tweets And Putting It All Together</h1>
 
@@ -58,17 +59,18 @@
 
 <p>[Video Of The Teletype Printing] (http://youtu.be/_HGV4Ppnx14)</p>
 
-<p><img src="https://github.com/snhack/TwitterToTeletype/wiki/images/TeletypeComplete.jpg" alt="Complete" /> <img src="https://github.com/snhack/TwitterToTeletype/wiki/images/TeletypePaper.jpg" alt="Printing" /></p>
+<p><img src="https://github.com/snhack/TwitterToTeletype/wiki/images/TeletypeComplete.jpg" alt="Complete" />
+<img src="https://github.com/snhack/TwitterToTeletype/wiki/images/TeletypePaper.jpg" alt="Printing" /></p>
 
 <h1 id="more-information">More Information</h1>
 
 <ul>
   <li>[Swindon Hackspace] (https://groups.google.com/forum/?hl=en&amp;fromgroups=#!forum/swindon-hackspace)</li>
-  <li>[Museum of Computing] (http://www.museum-of-computing.org.uk/)</li>
+  <li><a href="http://www.museum-of-computing.org.uk/">Museum of Computing</a></li>
   <li><a href="http://en.wikipedia.org/wiki/Teletype_Model_33">Model 33 Teletype on Wikipedia</a></li>
   <li><a href="http://en.wikipedia.org/wiki/Current_loop">Current loop on Wikipedia</a></li>
-  <li>[Source Code] (https://github.com/snhack/TwitterToTeletype)</li>
-  <li>[Raspberry Pi] (http://www.raspberrypi.org/)</li>
+  <li><a href="https://github.com/snhack/TwitterToTeletype">Source Code</a></li>
+  <li><a href="http://www.raspberrypi.org/">Raspberry Pi</a></li>
 </ul>
 ]]></content>
   </entry>
