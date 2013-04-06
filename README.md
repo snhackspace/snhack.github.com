@@ -69,11 +69,14 @@ Github also allows for minimal editing and adding of content via it's web interf
 
 > Note: This isn't the recommended way to add content to an octopress site.  Use only minimal formatting to be reasonably sure that your content renders correctly.  Your pull request may be rejected if it has serious rendering issues.
 
-[Fork this repo], select the ``source`` branch within the new fork, and navigate to ``source/_posts``.
+[Fork this repo] and select the ``source`` branch within your shiny new fork.
 
-Use github to create a new file, naming it according to the pattern: ``YYYY-MM-DD-url-safe-title.md``.
+Use github to [create a new file], [naming it] according to the pattern: ``source/_posts/YYYY-MM-DD-url-safe-title.md``.
 
-Add [suitable yaml] front matter, your content as plain text (with simple [markdown formatting]), and hope that it will all render as expected.
+[create a new file]: https://github.com/blog/1327-creating-files-on-github
+[naming it]: https://github.com/blog/1436-moving-and-renaming-files-on-github
+
+Add [suitable yaml] front matter, your content as plain text (with simple [markdown formatting]), and hope that it'll render as expected.
 
 Commit the new file to your fork, and submit a pull request to this repo.
 
