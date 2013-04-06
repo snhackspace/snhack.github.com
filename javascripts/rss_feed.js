@@ -37,11 +37,11 @@ function rss_feed_Linkroll() {
   this.format_item = function(it) {
     console.log(it);
     var str = "<li class=\"rss_feed-item\">";
-    str += "<p><a class=\"rss_feed-title\" href=\"" + this.cook(it.link) + "\">" + this.cook(it.title) + "</a>";
+    str += "<a class=\"rss_feed-title\" href=\"" + this.cook(it.link) + "\">" + this.cook(it.title) + "</a>";
     if (it.description) {
       str += "<span class=\"rss_feed-description\">" + this.cook(it.description) + "</span>\n";
     }
-    str += "</p></li>\n";
+    str += "</li>\n";
     return str;
   }
 }
