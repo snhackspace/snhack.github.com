@@ -23,7 +23,7 @@ This site is built with [octopress] and requires a ruby installation to render t
 
 Install dependencies, ``rake install`` is not required.
 
-	gem install bundler
+	gem install bundler rake
 	rbenv rehash			# Only needed with rbenv
 	bundle install
 
@@ -33,7 +33,7 @@ See the [octopress documentation] for more info or links for installing ruby.
 
 ### Adding Content
 
-Create a [new post or page], usually as [markdown].
+Create a [new post or page] usually as [markdown].  Use a topic branch if changing the site's source (templates, styles etc.)
 
 	rake new_post["Zombie Ninjas Attack"]
 	# Creates source/_posts/2011-07-03-zombie-ninjas-attack.md
@@ -58,7 +58,7 @@ Commit changes to your fork, and submit a pull request to this repo.
 Once your changes are accepted, an admin will need to preview them locally and run ``rake deploy`` before they become live.
 
 
-### Ruby, gem, bundle… Whaaa?
+### Ruby, gem, bundle.. Whaaa?
 
 Ruby is required to automate post generation, render the final site, and preview changes locally, etc.  When contributing very simple changes, you can add your text manually and skip the need for a ruby installation.
 
