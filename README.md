@@ -27,13 +27,13 @@ Install dependencies, ``rake install`` is not required.
 	rbenv rehash			# Only needed with rbenv
 	bundle install
 
-See the [octopress documentation] for more info or links for installing ruby.
+If you have any problems, see the [octopress documentation] for more info on installing ruby and other dependencies.
 
 
 
 ### Adding Content
 
-Create a [new post or page] usually as [markdown].  Use a topic branch if changing the site's source (templates, styles etc.)
+Create a [new post or page], usually as [markdown].  Use a topic branch if changing the site's source (templates, styles etc.)
 
 	rake new_post["Zombie Ninjas Attack"]
 	# Creates source/_posts/2011-07-03-zombie-ninjas-attack.md
@@ -53,7 +53,7 @@ Generate and preview your changes locally at ``http://localhost:4000``.
 	rake preview	# Watches, and mounts a webserver at http://localhost:4000
 
 
-Commit changes to your fork, and submit a pull request to this repo.
+Commit changes to your fork, then submit a pull request to this repo.
 
 Once your changes are accepted, an admin will need to preview them locally and run ``rake deploy`` before they become live.
 
@@ -67,18 +67,20 @@ Github also allows for minimal editing and adding of content via it's web interf
 
 ### Super minimal way to add a post
 
-> Note: This isn't the recommended way to add content to an octopress site.  Use only minimal formatting to be reasonably sure that your content renders correctly.  Your pull request may be rejected if it has serious rendering issues.
+> Note: This isn't the recommended way to add content to an octopress site.  Use only minimal formatting to be reasonably sure that your content renders correctly.  Your pull request won't be merged if it has serious rendering issues.
 
-[Fork this repo] and select the ``source`` branch within your shiny new fork.
+Browse to the [source/_posts] folder within the source branch of this repo.
 
-Use github to [create a new file], [naming it] according to the pattern: ``source/_posts/YYYY-MM-DD-url-safe-title.md``.
+[source/_posts]: https://github.com/snhack/snhack.github.com/tree/source/source/_posts
+
+Use github's web interface to [create a new file], [naming it] according to the pattern: ``YYYY-MM-DD-url-safe-title.md``.
 
 [create a new file]: https://github.com/blog/1327-creating-files-on-github
 [naming it]: https://github.com/blog/1436-moving-and-renaming-files-on-github
 
-Add [suitable yaml] front matter, your content as plain text (with simple [markdown formatting]), and hope that it'll render as expected.
+Add [suitable yaml] front matter, followed by your content as plain text.  Optionally use \*simple\* [markdown formatting] such as headers, italics and links.  Don't assume complex or non-standard markdown will render as expected, use octopress to generate and preview your content if you're unsure.
 
-Commit the new file to your fork, and submit a pull request to this repo.
+Committing the new file will automatically prompt you to submit a pull request to this repo.  Set the base branch to 'source', review the changes, and hit send.
 
 [suitable yaml]: http://octopress.org/docs/blogging
 [markdown formatting]: http://daringfireball.net/projects/markdown/basics
