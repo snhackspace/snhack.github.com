@@ -71,7 +71,7 @@ The following post uses standard markdown.  The `<!-- more -->` tag is standard 
 
 ### Install Octopress
 
-You should install octopress for more complex posts, or to make changes to the site.
+For more complex posts, or to make changes to the site, you should install octopress.  This will allow you to render the site and preview it locally.
 
 [Fork this repo], then clone your fork's **source branch** locally.
 
