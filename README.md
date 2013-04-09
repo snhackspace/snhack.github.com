@@ -85,7 +85,7 @@ Committing the new file will automatically prompt you to submit a pull request t
 
 ### Example Post
 
-The following post uses standard markdown.  The `<!-- more -->` tag is standard html which is also supported by markdown.
+The following post uses standard markdown.  The `<!-- more -->` tag is standard html which is also supported.
 
 	---
 
