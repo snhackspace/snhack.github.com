@@ -13,9 +13,7 @@ This site is built with [octopress] and requires a ruby installation to render t
 
 ### Super minimal way to add a post
 
-If you're submitting a post or edit that uses standard markdown, you can skip installing octopress and just provide the source.
-
-> Note:  Use only simple markdown formatting to be reasonably sure that your content renders correctly.  If using the extensions provided by octopress or jekyll, you should install octopress so you can preview your content before submission.  Your pull request won't be merged if it has serious rendering issues.
+If you're submitting a post or edit that uses only standard markdown, you can skip installing octopress and just provide the source.
 
 Browse to the [source/_posts] folder within the source branch of this repo.
 
@@ -71,7 +69,7 @@ The following post uses standard markdown.  The `<!-- more -->` tag is standard 
 
 ### Install Octopress
 
-For more complex posts, or to make site changes, you will need to render the site and preview it locally.
+When using the extensions provided by octopress or jekyll, or making changes to the site, you should install octopress so you can preview your content before submission.
 
 [Fork this repo], then clone your fork's **source branch** locally.
 
