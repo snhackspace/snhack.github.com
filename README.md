@@ -67,7 +67,7 @@ Github also allows for minimal editing and adding of content via it's web interf
 
 ### Super minimal way to add a post
 
-> Note: This isn't the recommended way to add content to an octopress site.  Use only minimal formatting to be reasonably sure that your content renders correctly.  Your pull request won't be merged if it has serious rendering issues.
+> Note: This isn't the recommended way to add content to an octopress site.  Use only simple markdown formatting, without jekyll or octopress extensions, to be reasonably sure that your content renders correctly.  Your pull request won't be merged if it has serious rendering issues.
 
 Browse to the [source/_posts] folder within the source branch of this repo.
 
@@ -84,6 +84,8 @@ Committing the new file will automatically prompt you to submit a pull request t
 
 
 ### Example Post
+
+The following post uses standard markdown.  The `<!-- more -->` tag is standard html which is also supported by markdown.
 
 	---
 
@@ -103,7 +105,7 @@ Committing the new file will automatically prompt you to submit a pull request t
 
 	<!-- more -->
 
-	Content below a ``<!-- more -->`` comment tag will not be shown on the main index page.
+	Content below a `<!-- more -->` comment tag will not be shown on the main index page.
 
 	## This is a H2 heading
 
