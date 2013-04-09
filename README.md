@@ -11,8 +11,65 @@ This site is built with [octopress] and requires a ruby installation to render t
 [fork this repo]: https://github.com/snhack/snhack.github.com/fork_select
 
 
+### Super minimal way to add a post
 
-### Clone and Initialise
+If you're submitting a post or edit that uses only standard markdown, you can skip installing octopress and just provide the source.
+
+Browse to the [source/_posts] folder within the source branch of this repo.
+
+[source/_posts]: https://github.com/snhack/snhack.github.com/tree/source/source/_posts
+
+Use github's web interface to [create a new file], [naming it] according to the pattern: ``YYYY-MM-DD-url-safe-title.md``.
+
+[create a new file]: https://github.com/blog/1327-creating-files-on-github
+[naming it]: https://github.com/blog/1436-moving-and-renaming-files-on-github
+
+Add [suitable yaml] front matter as shown in the example below, followed by your content as plain text.  Optionally use \*simple\* [markdown formatting] such as headers, italics and links.  There are [various tools] available to preview standard markdown.
+
+Commit the new file.  Github will automatically prompt you to submit a pull request to this repo: set the base branch to 'source', review the changes, and hit send.
+
+
+### Example Post
+
+The following post uses standard markdown.  The `<!-- more -->` tag is standard html which is also supported.
+
+	---
+
+	layout: post
+	title: "Example Post"
+	date: 2012-11-06 20:06
+	author: Git User
+	categories: [demo, markdown]
+
+	---
+
+	Here's a [link to github](http://github.com), some text with *italic* and **bold** formatting, and an image:
+
+	![octocat](https://github.com/images/icons/emoji/octocat.png)
+
+    	Indent code with 1 tab or 4 spaces to prevent conversion by markdown
+
+	<!-- more -->
+
+	Content below a `<!-- more -->` comment tag will not be shown on the main index page.
+
+	## This is a H2 heading
+
+	> And this is a block quote
+
+	You can also use [reference style links][twttr] to keep things tidy.
+
+	[twttr]: http://twitter.com
+
+
+[suitable yaml]: http://octopress.org/docs/blogging
+[markdown formatting]: http://daringfireball.net/projects/markdown/basics
+[various tools]: http://daringfireball.net/projects/markdown/dingus
+
+
+### Install Octopress
+
+When using the extensions provided by octopress or jekyll, or making changes to the site, you should install octopress so you can preview your content before submission.
 
 [Fork this repo], then clone your fork's **source branch** locally.
 
@@ -55,32 +112,4 @@ Generate and preview your changes locally at ``http://localhost:4000``.
 
 Commit changes to your fork, then submit a pull request to this repo.
 
-Once your changes are accepted, an admin will need to preview them locally and run ``rake deploy`` before they become live.
-
-
-### Ruby, gem, bundle.. Whaaa?
-
-Ruby is required to automate post generation, render the final site, and preview changes locally, etc.  When contributing very simple changes, you can add your text manually and skip the need for a ruby installation.
-
-Github also allows for minimal editing and adding of content via it's web interface, useful for fixing typos when you don't have access to a local ``git`` installation.
-
-
-### Super minimal way to add a post
-
-> Note: This isn't the recommended way to add content to an octopress site.  Use only minimal formatting to be reasonably sure that your content renders correctly.  Your pull request won't be merged if it has serious rendering issues.
-
-Browse to the [source/_posts] folder within the source branch of this repo.
-
-[source/_posts]: https://github.com/snhack/snhack.github.com/tree/source/source/_posts
-
-Use github's web interface to [create a new file], [naming it] according to the pattern: ``YYYY-MM-DD-url-safe-title.md``.
-
-[create a new file]: https://github.com/blog/1327-creating-files-on-github
-[naming it]: https://github.com/blog/1436-moving-and-renaming-files-on-github
-
-Add [suitable yaml] front matter, followed by your content as plain text.  Optionally use \*simple\* [markdown formatting] such as headers, italics and links.  Don't assume complex or non-standard markdown will render as expected, use octopress to generate and preview your content if you're unsure.
-
-Committing the new file will automatically prompt you to submit a pull request to this repo.  Set the base branch to 'source', review the changes, and hit send.
-
-[suitable yaml]: http://octopress.org/docs/blogging
-[markdown formatting]: http://daringfireball.net/projects/markdown/basics
+Once your changes are accepted, an admin will need to generate the site using ``rake deploy`` before they become live.
