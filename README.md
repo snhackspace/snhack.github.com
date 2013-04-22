@@ -86,8 +86,6 @@ Commit changes, then push them to your fork.
 	git commit -am "That fix, for the thing."
 	git push origin myfix
 
-Submit a [pull request] to this repo.
-
-Tip: Once changes have been pushed to a fork, viewing that branch on the github site should show a 'pull request' button that will automatically choose the source and target repo/branch.
+Submit a [pull request] to this repo (use the button shown on your new branch).
 
 Once your changes are accepted, an admin will need to generate the site using ``rake deploy`` before they become live.
