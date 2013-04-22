@@ -4,7 +4,7 @@
   <title><![CDATA[Swindon Hackspace]]></title>
   <link href="http://snhack.github.com/atom.xml" rel="self"/>
   <link href="http://snhack.github.com/"/>
-  <updated>2013-04-22T02:32:21+01:00</updated>
+  <updated>2013-04-22T18:11:56+01:00</updated>
   <id>http://snhack.github.com/</id>
   <author>
     <name><![CDATA[Swindon Hackspace]]></name>
@@ -153,6 +153,43 @@
 <h2 id="other-info">other info</h2>
 
 <p>Btw, if you just want to share some code snippets somewhere while maintaining versioning etc., then check out <a href="https://gist.github.com/">gists</a>, a feature of github.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[C]]></title>
+    <link href="http://snhack.github.com/blog/c/"/>
+    <updated>2012-06-21T00:00:00+01:00</updated>
+    <id>http://snhack.github.com/blog/c</id>
+    <content type="html"><![CDATA[<p>On the <a href="https://groups.google.com/forum/#!forum/swindon-hackspace">hackspace group</a> we&rsquo;ve been discussing a project for an upcoming museum exhibition that will interface old tech with new; in this case we plan to use a Teletype machine to display messages sent via the internet that are relevent to computing and the museum (messages will be served by twitter, perhaps direct from the museum website too).</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[52]]></title>
+    <link href="http://snhack.github.com/blog/52/"/>
+    <updated>2012-06-14T00:00:00+01:00</updated>
+    <id>http://snhack.github.com/blog/52</id>
+    <content type="html"><![CDATA[<p>On the <a href="https://groups.google.com/forum/#!forum/swindon-hackspace">hackspace group</a> we&rsquo;ve been discussing a project for an upcoming museum exhibition that will interface old tech with new; in this case we plan to use a Teletype machine to display messages sent via the internet that are relevent to computing and the museum (messages will be served by twitter, perhaps direct from the museum website too).</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A]]></title>
+    <link href="http://snhack.github.com/blog/a/"/>
+    <updated>2012-06-07T00:00:00+01:00</updated>
+    <id>http://snhack.github.com/blog/a</id>
+    <content type="html"><![CDATA[<p>Hey Hackers,</p>
+
+<p>A quick update before this week&rsquo;s session..</p>
+
+<p>Simon will be on-hand for the first half of the evening for anybody who would like an introduction to soldering.  If you have any soldering problems to bring in, please feel free.</p>
+
+<p>Last week, Simon demoed his 10 programmable robot!  He&rsquo;s currently designing a new PCB layout for it, we&rsquo;ll post more info once it&rsquo;s complete.</p>
+
+<p>In the group we&rsquo;ve been discussing ongoing projects, such as the teletype.  There&rsquo;s also a possible <a href="https://groups.google.com/d/topic/swindon-hackspace/5u2yMoxLbtY/discussion">near space mission</a> we&rsquo;re looking into. (anybody have a weather balloon?)</p>
+
+<p>If you have any spare tools to donate, we&rsquo;re trying to get together a basic set for hackspace use.  Please let us know, either by email, or <a href="https://groups.google.com/d/topic/swindon-hackspace/bf9kpi6sc9o/discussion">in the group</a> if you&rsquo;re able to help.</p>
 ]]></content>
   </entry>
   
