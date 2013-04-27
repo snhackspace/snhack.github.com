@@ -267,19 +267,19 @@
   <ul id="rss_feed_linkroll">
     <li class="loading">Fetching links...</li>
   </ul>
+  <script type="text/javascript">
+    var linkroll = 'rss_feed_linkroll';
+    var rss_feed_url = "http://rsstojson.herokuapp.com/?feed=http://groups.google.com/group/swindon-hackspace/feed/rss_v2_0_topics.xml";
+    (function(){
+      var rss_feedInit = document.createElement('script');
+      rss_feedInit.type = 'text/javascript';
+      rss_feedInit.async = true;
+      rss_feedInit.src = '/javascripts/rss_feed.js';
+      document.getElementsByTagName('head')[0].appendChild(rss_feedInit);
+    })();
+  </script>
   
 </section>
-<script type="text/javascript">
-  var linkroll = 'rss_feed_linkroll';
-  var rss_feed_url = "http://rsstojson.herokuapp.com/?feed=http://groups.google.com/group/swindon-hackspace/feed/rss_v2_0_topics.xml";
-  (function(){
-    var rss_feedInit = document.createElement('script');
-    rss_feedInit.type = 'text/javascript';
-    rss_feedInit.async = true;
-    rss_feedInit.src = '/javascripts/rss_feed.js';
-    document.getElementsByTagName('head')[0].appendChild(rss_feedInit);
-  })();
-</script>
 
 
 <section>
