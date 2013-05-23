@@ -4,7 +4,7 @@
   <title><![CDATA[Category: pi | Swindon Hackspace]]></title>
   <link href="http://snhack.github.com/blog/categories/pi/atom.xml" rel="self"/>
   <link href="http://snhack.github.com/"/>
-  <updated>2013-05-12T04:27:44+01:00</updated>
+  <updated>2013-05-23T20:13:29+01:00</updated>
   <id>http://snhack.github.com/</id>
   <author>
     <name><![CDATA[Swindon Hackspace]]></name>
@@ -28,9 +28,9 @@
 
 <h1 id="current-loop-interface">Current Loop Interface</h1>
 
-<p>The teletype uses a current loop interface to communicate with other (teletype) devices.  The current loop interface is similar to a standard RS232 serial interface found on a PC except rather than using changes in voltage to represent 0&rsquo;s and 1&rsquo;s it uses changes in current.  Data is sent at 110 baud - very slowly compared to modern standards, but this is as fast as the teletype can print characters and it has no means to buffer the data it receives.</p>
+<p>The teletype uses a current loop interface to communicate with other (teletype) devices.  The current loop interface is similar to a standard RS232 serial interface found on a PC except rather than using changes in voltage to represent 0’s and 1’s it uses changes in current.  Data is sent at 110 baud - very slowly compared to modern standards, but this is as fast as the teletype can print characters and it has no means to buffer the data it receives.</p>
 
-<p>After a few failed attempts and fried components a circuit was built to convert from RS232 serial into current loop using&hellip;. [ <em>what?, circuit diagram?, any more info?</em> ]</p>
+<p>After a few failed attempts and fried components a circuit was built to convert from RS232 serial into current loop using…. [ <em>what?, circuit diagram?, any more info?</em> ]</p>
 
 <p><img src="https://github.com/snhack/TwitterToTeletype/wiki/images/CurrentLoopConverter.jpg" alt="Current Loop Converter" /></p>
 
@@ -50,7 +50,7 @@
 
 <h1 id="whats-with-all-the-noise">Whats With All The Noise?</h1>
 
-<p>Because the teletype is a mechanical device which uses moving parts to decode the data it receives it has to be running continuously and hence makes a lot of noise even when not printing text.  In order to minimize the noise generated when the teletype wasn&rsquo;t printing anything a circuit was created using an ATTiny2313 (similar to the programmable chip used in an Arduino) and a relay to turn the power to the teletype on just before data was due to be sent and off once the printing was complete.  This chip was also programmed to bridge the connection from USB on the Raspberry Pi to the serial data that was needed to send to the current loop converter to talk to the teletype.</p>
+<p>Because the teletype is a mechanical device which uses moving parts to decode the data it receives it has to be running continuously and hence makes a lot of noise even when not printing text.  In order to minimize the noise generated when the teletype wasn’t printing anything a circuit was created using an ATTiny2313 (similar to the programmable chip used in an Arduino) and a relay to turn the power to the teletype on just before data was due to be sent and off once the printing was complete.  This chip was also programmed to bridge the connection from USB on the Raspberry Pi to the serial data that was needed to send to the current loop converter to talk to the teletype.</p>
 
 <p><img src="https://github.com/snhack/TwitterToTeletype/wiki/images/UsbSwitch.jpg" alt="USB Switch" />
 <img src="https://github.com/snhack/TwitterToTeletype/wiki/images/UsbSwitch2.jpg" alt="USB Switch" /></p>
