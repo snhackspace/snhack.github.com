@@ -29,7 +29,7 @@ Add [suitable yaml] front matter followed by your content as plain text, as show
 [this example post]: https://raw.github.com/snhack/snhack.github.com/source/source/_posts/_examples/2012-11-06-example-post.md
 [preview]: https://github.com/snhack/snhack.github.com/blob/source/source/_posts/_examples/2012-11-06-example-post.md
 
-Commit the new file.  Github will automatically prompt you to submit a pull request to this repo: set the base branch to 'source', review the changes, and hit send.
+Commit the new file using the button labelled "Propose New File".  Github will automatically prompt you to submit a pull request to this repo: ensure the base branch is set to 'source', review the changes (especially the "Files Changed" tab), then hit "Send pull request".
 
 [suitable yaml]: http://octopress.org/docs/blogging
 [markdown formatting]: http://daringfireball.net/projects/markdown/basics
