@@ -17,7 +17,7 @@ If you're submitting a post or edit that uses only standard markdown, you can sk
 
 Browse to the [source/_posts] folder within the source branch of this repo.
 
-[source/_posts]: source/_posts
+[source/_posts]: https://github.com/snhack/snhack.github.com/tree/source/source/_posts
 
 Use github's web interface to [create a new file], [naming it] according to the pattern: ``YYYY-MM-DD-url-safe-title.md``.
 
@@ -37,7 +37,9 @@ Commit the new file.  Github will automatically prompt you to submit a pull requ
 
 
 
-### Build Locally
+### Install and Build Locally
+
+Note: This is not required to simply submit a post or similar using standard text/markdown.
 
 When using the extensions provided by octopress or jekyll, or making changes to the site, you should install octopress so you can preview your content before submission.
 
