@@ -19,7 +19,7 @@ Browse to the [source/_posts] folder within the source branch of this repo.
 
 [source/_posts]: https://github.com/snhack/snhack.github.com/tree/source/source/_posts
 
-Use github's web interface to [create a new file], [naming it] according to the pattern: ``YYYY-MM-DD-url-safe-title.md``.
+Use github's web interface to [create a new file], [naming it] according to the pattern: ``YYYY-MM-DD-url-safe-title.md``.  This will prompt Github to create a fork of this project for you to work in.
 
 [create a new file]: https://github.com/blog/1327-creating-files-on-github
 [naming it]: https://github.com/blog/1436-moving-and-renaming-files-on-github
@@ -29,7 +29,7 @@ Add [suitable yaml] front matter followed by your content as plain text, as show
 [this example post]: https://raw.github.com/snhack/snhack.github.com/source/source/_posts/_examples/2012-11-06-example-post.md
 [preview]: https://github.com/snhack/snhack.github.com/blob/source/source/_posts/_examples/2012-11-06-example-post.md
 
-Commit the new file using the button labelled "Propose New File".  Github will automatically prompt you to submit a pull request to this repo: ensure the base branch is set to 'source', review the changes (especially the "Files Changed" tab), then hit "Send pull request".
+Commit the new file using the button labelled "Propose New File", Github will automatically prompt you to submit a pull request to this repo.  Ensure the base branch is set to 'source', review the changes (especially the "Files Changed" tab), then hit "Send pull request".
 
 [suitable yaml]: http://octopress.org/docs/blogging
 [markdown formatting]: http://daringfireball.net/projects/markdown/basics
