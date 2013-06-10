@@ -38,8 +38,8 @@ post will have a title header added instead of the raw metadata.
 
 Use the `Propose New File` button to commit the post (to your own fork) and add it to a pull request.
 
-Ensure the base branch is set to this repo's `source` branch, review the changes
-being sent (especially the `Files Changed` tab), then hit `Send pull request`.
+Ensure the base branch is set to this repo's `source` branch.  Review the changes
+being sent (especially in the `Files Changed` tab), then hit `Send pull request`.
 
 [post metadata]: http://octopress.org/docs/blogging
 [markdown]: http://daringfireball.net/projects/markdown/basics
