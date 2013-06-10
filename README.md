@@ -12,12 +12,13 @@ the [source branch] to master.
 [fork this repo]: https://github.com/snhack/snhack.github.com/fork_select
 [pull request]: https://github.com/snhack/snhack.github.com/pulls
 
-Please see the [INSTALL](INSTALL.md) file for full details on how to build/preview this site locally.
+Please see the [INSTALL](INSTALL.md) file for full details on how to build and
+preview this site locally.
 
 
 ### Super minimal way to add a post
 
-> Follow this section to submit a standard blog post using the github site.
+> Use this workflow when submitting a blog post using standard text or markdown.
 
 Visit this project's [source branch] on the github.com website, and load
 the [source/_posts] folder.
