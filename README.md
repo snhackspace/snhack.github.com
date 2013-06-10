@@ -3,15 +3,6 @@ snhack.github.com
 
 __Note:  master branch is overwritten during compilation.__
 
-This site is built with [octopress] and requires a ruby installation to render
-the [source branch] to master.
-
-[octopress]: http://octopress.org/docs
-[octopress documentation]: http://octopress.org/docs/setup/
-[source branch]: https://github.com/snhack/snhack.github.com/tree/source
-[fork this repo]: https://github.com/snhack/snhack.github.com/fork_select
-[pull request]: https://github.com/snhack/snhack.github.com/pulls
-
 Please see the [INSTALL](INSTALL.md) file for full details on how to build and
 preview this site locally.
 
@@ -23,6 +14,7 @@ preview this site locally.
 Visit this project's [source branch] on the github.com website, and load
 the [source/_posts] folder.
 
+[source branch]: https://github.com/snhack/snhack.github.com/tree/source
 [source/_posts]: https://github.com/snhack/snhack.github.com/tree/source/source/_posts
 
 Use the [new file icon] that's located above the folder listing.
