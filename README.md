@@ -36,13 +36,11 @@ post will have a title header added instead of the raw metadata.
 [this example post]: https://raw.github.com/snhack/snhack.github.com/source/source/_posts/_examples/2012-11-06-example-post.md
 [preview]: https://github.com/snhack/snhack.github.com/blob/source/source/_posts/_examples/2012-11-06-example-post.md
 
-Use the `Propose New File` button to save the post and add it to a pull request. (the commit is to a branch in your fork)
+Use the `Propose New File` button to save the post and start a pull request
+(this makes a commit to a new branch in your fork).
 
-Ensure the base branch is set to this repo's `source` branch.  Reviewing the changes
-listed in the `Files Changed` tab is the best way to confirm everything is ok.  When satisfied, hit `Send pull request` to have the changes.
+Ensure the base branch is set to this repo's `source` branch.  Check the changes listed in the `Files Changed` tab, then hit `Send pull request`.
 
 [post metadata]: http://octopress.org/docs/blogging
 [markdown]: http://daringfireball.net/projects/markdown/basics
 [preview markdown]: http://daringfireball.net/projects/markdown/dingus
-
-An admin will need to accept the pull request and regenerate the site.
