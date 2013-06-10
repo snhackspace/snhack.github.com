@@ -15,9 +15,6 @@ the [source branch] to master.
 
 ### Install Site Locally
 
-> This section explains how to install the entire site and required ruby gems to your local machine.  
-> Those submitting posts as standard text or markdown can do so using the much easier workflow described above.
-
 A local installation allows changes to be previewed accurately, so they are rendered to
 the live site as expected.  This is especially important when making changes to the site
 itself, or submitting content that uses non-markdown extensions - such as those provided
@@ -42,8 +39,6 @@ ruby and other dependencies.
 
 
 ### Adding and Previewing Changes
-
-> Standard git/rake workflow for users who have installed the site locally.
 
 Creating a new topic branch is preferred, especially for changes to the site's
 source (including templates and styles).
