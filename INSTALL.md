@@ -17,8 +17,8 @@ the [source branch] to master.
 
 A local installation allows changes to be previewed accurately, so they are rendered to
 the live site as expected.  This is especially important when making changes to the site
-itself, or submitting content that uses non-markdown extensions - such as those provided
-by octopress and jekyll.
+itself, or submitting content that uses non-markdown extensions (such as those provided
+by octopress and jekyll).
 
 [Fork this repo], then clone your fork's **source branch** locally.
 
