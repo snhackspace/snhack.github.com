@@ -33,7 +33,7 @@ post will have a title header added instead of the raw metadata.
 [preview]: https://github.com/snhack/snhack.github.com/blob/source/source/_posts/_examples/2012-11-06-example-post.md
 
 Use the `Propose New File` button to save the post and start a pull request
-(this makes a commit to a new branch in your fork).
+(the file is committed to a new branch in your fork).
 
 Ensure the base branch is set to this repo's `source` branch.  Check the `Files Changed` tab, then hit `Send pull request`.
 
