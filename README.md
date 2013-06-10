@@ -51,5 +51,5 @@ being sent (especially the `Files Changed` tab), then hit `Send pull request`.
 [markdown]: http://daringfireball.net/projects/markdown/basics
 [preview markdown]: http://daringfireball.net/projects/markdown/dingus
 
-Once your changes are accepted, an admin will need to generate the site
-using `rake deploy` before they become live.
+Once your changes are accepted, an admin will need to generate the site before
+they become live.
