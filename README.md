@@ -52,5 +52,4 @@ being sent (especially the `Files Changed` tab), then hit `Send pull request`.
 [markdown]: http://daringfireball.net/projects/markdown/basics
 [preview markdown]: http://daringfireball.net/projects/markdown/dingus
 
-An admin will need to accept the pull request and generate the site for your
-post to become live.
+An admin will need to accept the pull request and regenerate the site.
