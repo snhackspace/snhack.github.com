@@ -25,20 +25,14 @@ according to the pattern: `YYYY-MM-DD-url-safe-title.md`.
 Enter basic [post metadata], followed by your content as plain text or [markdown].
 See [this example post] for a template.
 
-<!--
-[Markdown] is used to add rich text such as headers, italics and links.
-Various tools exist to [preview markdown], the main difference being that the rendered
-post will have a title header added instead of the raw metadata.
--->
-
 [this example post]: https://raw.github.com/snhack/snhack.github.com/source/source/_posts/_examples/2012-11-06-example-post.md
 [preview]: https://github.com/snhack/snhack.github.com/blob/source/source/_posts/_examples/2012-11-06-example-post.md
 
-Use the `Propose New File` button to save the post and start a pull request
-(the file is committed to a new branch in your fork).
+Use the `Propose New File` button to commit the post to a new branch in your fork and
+start a pull request.
 
 Ensure the base branch is set to this repo's `source` branch.  Check the `Files Changed` tab, then hit `Send pull request`.
 
 [post metadata]: http://octopress.org/docs/blogging
-[markdown]: http://daringfireball.net/projects/markdown/basics
-[preview markdown]: http://daringfireball.net/projects/markdown/dingus
+[markdown basics]: http://daringfireball.net/projects/markdown/basics
+[markdown]: http://daringfireball.net/projects/markdown/dingus

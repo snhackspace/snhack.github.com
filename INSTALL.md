@@ -53,7 +53,7 @@ Make your changes, such as a [new post or page] in [markdown] format.
 	nano source/_posts/2011-07-03-zombie-ninjas-attack.md
 
 [new post or page]: http://octopress.org/docs/blogging
-[markdown]: http://daringfireball.net/projects/markdown
+[markdown]: http://daringfireball.net/projects/markdown/dingus
 
 
 Generate and preview your changes locally at `http://localhost:4000`.
