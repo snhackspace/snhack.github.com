@@ -12,9 +12,7 @@ the [source branch] to master.
 [fork this repo]: https://github.com/snhack/snhack.github.com/fork_select
 [pull request]: https://github.com/snhack/snhack.github.com/pulls
 
-For full details on installing this site locally, see the [INSTALL.md] file
-
-[INSTALL.md]: INSTALL.md
+For full details on installing this site locally, see the [INSTALL](INSTALL.md) file
 
 
 ### Super minimal way to add a post
