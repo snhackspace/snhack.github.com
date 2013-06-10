@@ -11,14 +11,10 @@ preview this site locally.
 
 > Use this workflow when submitting a blog post using standard text or markdown.
 
-Visit this project's [source branch] on the github.com website, and load
-the [source/_posts] folder.
-
-[source branch]: https://github.com/snhack/snhack.github.com/tree/source
-[source/_posts]: https://github.com/snhack/snhack.github.com/tree/source/source/_posts
-
-Use the [new file icon] that's located above the folder listing.
+Use the [new file icon] that's located above the [source/_posts] folder listing.
 Github will automatically fork this project as required.
+
+[source/_posts]: https://github.com/snhack/snhack.github.com/tree/source/source/_posts
 
 Name the new file using your preferred post date and title,
 according to the pattern: `YYYY-MM-DD-url-safe-title.md`.
@@ -39,7 +35,7 @@ post will have a title header added instead of the raw metadata.
 Use the `Propose New File` button to save the post and start a pull request
 (this makes a commit to a new branch in your fork).
 
-Ensure the base branch is set to this repo's `source` branch.  Check the changes listed in the `Files Changed` tab, then hit `Send pull request`.
+Ensure the base branch is set to this repo's `source` branch.  Check the `Files Changed` tab, then hit `Send pull request`.
 
 [post metadata]: http://octopress.org/docs/blogging
 [markdown]: http://daringfireball.net/projects/markdown/basics
