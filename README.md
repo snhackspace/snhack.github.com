@@ -25,9 +25,11 @@ according to the pattern: `YYYY-MM-DD-url-safe-title.md`.
 Enter basic [post metadata], followed by your content as plain text or [markdown].
 See [this example post] for a template.
 
+<!--
 [Markdown] is used to add rich text such as headers, italics and links.
 Various tools exist to [preview markdown], the main difference being that the rendered
 post will have a title header added instead of the raw metadata.
+-->
 
 [this example post]: https://raw.github.com/snhack/snhack.github.com/source/source/_posts/_examples/2012-11-06-example-post.md
 [preview]: https://github.com/snhack/snhack.github.com/blob/source/source/_posts/_examples/2012-11-06-example-post.md
