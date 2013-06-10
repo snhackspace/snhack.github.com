@@ -11,7 +11,7 @@ preview this site locally.
 
 > Use this workflow when submitting a blog post using standard text or markdown.
 
-Use the [new file icon] that's located above the [source/_posts] folder listing.
+Load the [source/_posts] folder and use the [new file] icon above its listing.
 Github will automatically fork this project as required.
 
 [source/_posts]: https://github.com/snhack/snhack.github.com/tree/source/source/_posts
@@ -19,7 +19,7 @@ Github will automatically fork this project as required.
 Name the new file using your preferred post date and title,
 according to the pattern: `YYYY-MM-DD-url-safe-title.md`.
 
-[new file icon]: https://github.com/blog/1327-creating-files-on-github
+[new file]: https://github.com/blog/1327-creating-files-on-github
 [naming it]: https://github.com/blog/1436-moving-and-renaming-files-on-github
 
 Enter basic [post metadata], followed by your content as plain text or [markdown].
