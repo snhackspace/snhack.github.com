@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: tty | Swindon Hackspace]]></title>
-  <link href="http://snhack.github.com/blog/categories/tty/atom.xml" rel="self"/>
+  <title><![CDATA[Category: project | Swindon Hackspace]]></title>
+  <link href="http://snhack.github.com/blog/categories/project/atom.xml" rel="self"/>
   <link href="http://snhack.github.com/"/>
   <updated>2013-06-12T22:09:09+01:00</updated>
   <id>http://snhack.github.com/</id>
