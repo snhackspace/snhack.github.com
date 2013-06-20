@@ -31,8 +31,41 @@ See [this example post] for a template.
 Use the `Propose New File` button to commit the post to a new branch in your fork and
 start a pull request.
 
-Ensure the base branch is set to this repo's `source` branch.  Check the `Files Changed` tab, then hit `Send pull request`.
+Ensure the base branch is set to this repo's `source` branch.
+Check the `Files Changed` tab, then hit `Send pull request`.
 
 [post metadata]: http://octopress.org/docs/blogging
 [markdown basics]: http://daringfireball.net/projects/markdown/basics
 [markdown]: http://daringfireball.net/projects/markdown/dingus
+
+
+### Notes on Pull Requests:
+
+Once you have sent a pull request, an admin will need to build the site locally to
+check it renders acceptably and then deploy your content to the live site.
+
+You can view the progress of your pull request in its [discussion thread].
+Notifications will normally be sent by email to those active or mentioned
+in the thread, as well as those watching either the thread or the related repo.
+
+Additional commits made to the same branch (named with the 'patch' prefix by default) will automatically be added to the pull request.
+
+For more info on pull requests, please check the [github help] pages.
+
+[discussion thread]: https://github.com/snhack/snhack.github.com/issues
+[github help]: https://help.github.com/articles/using-pull-requests
+
+
+### Other Notes
+
+There is currently no easy to commit a binary file using the github website.
+However, once you've made a pull request you can attach images to the discussion thread.
+
+Your markdown should reference images added to the site as shown below:
+
+    ![Meetup](/blog/images/2013-06-13/meetup.jpg)
+
+Where the date matches that used in your post's filename.
+
+If you want to manually commit the images used in your post, the source path for the
+above example would be `source/blog/images/2013-06-13`.
