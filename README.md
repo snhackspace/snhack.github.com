@@ -63,8 +63,8 @@ There is currently no easy to commit a binary file using the github website.
 However, once you've made a pull request you can attach images to its discussion thread,
 an admin can then manually upload your images into the correct folder.
 
-The following example will show an image `MyImageFile.jpg` that has been uploaded
-to `source/_posts/_images/<your-new-file-name>/`.
+The following example will show an image `MyImageFile.jpg`, that has been uploaded
+to a folder at `source/_posts/_images/<your-new-file-name>/`.
 
     ![MyImage]({{ page.url }}/MyImageFile.jpg)
 
