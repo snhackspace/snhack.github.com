@@ -56,17 +56,20 @@ For more info on pull requests, please check the [github help] pages.
 [github help]: https://help.github.com/articles/using-pull-requests
 
 
-### Other Notes
+### Uploading Images
 
-Currently, it's only possible to commit plain text when using the github website.
+The [new file] icon on the github website only supports text files. You can use images
+hosted elsewhere, but it's sometimes best to upload images to the site itself.
 
 If you're familiar with `git`, you can commit images into a new folder located within
-`source/_posts/_images`, and named to match your post: `YYYY-MM-DD-name-of-post`.
+[`source/_posts/_images`](_images), and named to match your post: `YYYY-MM-DD-name-of-post`.
 
-Otherwise, you can attach images to the [discussion thread] of your newly created pull
-request.  An admin will then commit them into the correct folder.
+[_images]: https://github.com/snhack/snhack.github.com/tree/source/source/_posts/_images
 
-The url shown below is automatically replaced when rendered to the site.
+An easier option is to attach images to the [discussion thread] of your newly created
+pull request, an admin can then commit them into the correct folder.
+
+Use `{{ page.url }}` in your post to automatically reference the correct folder.
 
     ![MyImage]({{ page.url }}/MyImageFile.jpg)
 
