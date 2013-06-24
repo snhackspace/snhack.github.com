@@ -66,7 +66,7 @@ If you're familiar with `git`, you can commit images into a new folder located w
 Otherwise, you can attach images to the [discussion thread] of your newly created pull
 request.  An admin will then commit them into the correct folder.
 
-The example below will have the correct url inserted automatically.
+The url shown below is automatically replaced when rendered to the site.
 
     ![MyImage]({{ page.url }}/MyImageFile.jpg)
 
