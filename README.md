@@ -1,5 +1,4 @@
-snhack.github.com
-=================
+## snhack.github.com
 
 __Note:  master branch is overwritten during compilation.__
 
@@ -39,7 +38,7 @@ Check the `Files Changed` tab, then hit `Send pull request`.
 [markdown]: http://daringfireball.net/projects/markdown/dingus
 
 
-### Notes on Pull Requests:
+### Notes on Pull Requests
 
 Once you have sent a pull request, an admin will need to build the site locally to
 check it renders acceptably and then deploy your content to the live site.
@@ -59,12 +58,17 @@ For more info on pull requests, please check the [github help] pages.
 
 ### Other Notes
 
-There is currently no easy to commit a binary file using the github website.
-However, once you've made a pull request you can attach images to its discussion thread,
-an admin can then manually upload your images into the correct folder.
+Currently, it's only possible to commit plain text when using the github website.
+
+If you're familiar with the use of `git`, feel free to commit the images you want to use,
+into a folder named according to the pattern:
+`source/_posts/_images/<YYYY-MM-DD-name-of-post>/`.
+
+Otherwise, you can attach images to the newly created [discussion thread] for your pull
+request.  An admin will then commit them into the correct folder.
 
 The following markdown example will show an image `MyImageFile.jpg`, that has been
-uploaded to the folder `source/_posts/_images/<your-new-file-name>/`.
+uploaded to the folder.
 
     ![MyImage]({{ page.url }}/MyImageFile.jpg)
 
