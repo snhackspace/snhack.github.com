@@ -60,15 +60,13 @@ For more info on pull requests, please check the [github help] pages.
 
 Currently, it's only possible to commit plain text when using the github website.
 
-If you're familiar with the use of `git`, feel free to commit the images you want to use,
-into a folder named according to the pattern:
-`source/_posts/_images/<YYYY-MM-DD-name-of-post>/`.
+If you're familiar with `git`, you can commit images into a new folder located within
+`source/_posts/_images`, and named to match your post: `YYYY-MM-DD-name-of-post`.
 
-Otherwise, you can attach images to the newly created [discussion thread] for your pull
+Otherwise, you can attach images to the [discussion thread] of your newly created pull
 request.  An admin will then commit them into the correct folder.
 
-The following markdown example will show an image `MyImageFile.jpg`, that has been
-uploaded to the folder.
+The example below will have the correct url inserted automatically.
 
     ![MyImage]({{ page.url }}/MyImageFile.jpg)
 
