@@ -22,7 +22,7 @@ according to the pattern: `YYYY-MM-DD-url-safe-title.md`.
 [naming it]: https://github.com/blog/1436-moving-and-renaming-files-on-github
 
 Enter basic post metadata, followed by your content as plain text or [markdown].
-See the [example]\ [posts] for a template.
+See the [example][] [posts] for a template.
 
 [example]: https://raw.github.com/snhack/snhack.github.com/source/source/_posts/_examples/2012-11-06-example-post.md
 [post]: https://raw.github.com/snhack/snhack.github.com/source/source/_posts/_examples/2012-11-06-example-post.md
