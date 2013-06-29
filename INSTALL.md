@@ -22,10 +22,11 @@ by octopress and jekyll).
 
 [Fork this repo], then clone your fork's **source branch** locally.
 
+```sh
 	git clone -b source git@github.com:<yourusername>/snhack.github.com.git snhack
 	cd snhack
 	ruby --version      # Should report Ruby 1.9.3
-
+```
 
 Install dependencies, but do not run `rake install` (it's been done already).
 
