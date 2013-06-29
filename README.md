@@ -73,7 +73,7 @@ pull request, an admin can then commit them into the correct folder.
 
 Use `{{ page.url }}` in your post to automatically reference the correct folder.
 
-```md
+```markdown
 ![MyImage]({{ page.url }}/MyImageFile.jpg)
 ```
 
