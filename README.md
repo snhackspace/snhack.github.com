@@ -81,7 +81,7 @@ Use `{{ page.url }}` in your post to automatically reference the correct folder.
 
 test:
 
-```markdown
+```md
 Everything in this file is standard vanilla markdown. To see extensions that are made available by octopress, see the other examples in this folder.
 
 Posts automatically start with the title rendered as a H1 heading.  Therefore, your post
