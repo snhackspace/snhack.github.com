@@ -77,3 +77,54 @@ Use `{{ page.url }}` in your post to automatically reference the correct folder.
 ![MyImage]({{ page.url }}/MyImageFile.jpg)
 ```
 
+
+
+test:
+
+```markdown
+Everything in this file is standard vanilla markdown. To see extensions that are made available by octopress, see the other examples in this folder.
+
+Posts automatically start with the title rendered as a H1 heading.  Therefore, your post
+should only use subheadings of level 2 and greater.
+
+
+## This is a H2 heading
+
+Here's a [link to github](http://github.com), some text with *italic* and **bold**
+formatting, and an image:
+
+![Github's Octocat](https://github.com/images/icons/emoji/octocat.png)
+
+
+<!-- this is a HTML comment. It can span one line, or several,
+     and will not appear in the browser when rendered as HTML -->
+
+A special 'more' comment tag marks the end of content that should be previewed on
+the blog index page, and where the 'Read More' link will be shown.
+
+<!-- more -->
+
+
+- This is
+- an unordered list
+    1. with an ordered
+    2. list embedded
+- done
+
+
+> And this is a block quote, it *supports* embedded markdown
+
+
+To include code samples:
+
+    Indent with 1 tab or 4 spaces to *prevent* conversion by markdown
+    Code such as HTML can shown without being interpreted: <!-- comment -->
+
+Markup short phrases of code inline, by wrapping with the `back tick character`.
+
+---
+
+See the [examples] folder for more info on markdown and octopress syntax.
+
+[examples]: https://github.com/snhack/snhack.github.com/tree/source/source/_posts/_examples
+```
