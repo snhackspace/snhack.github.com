@@ -31,9 +31,9 @@ Here's a [template] and some [example posts].
 
 Use the `Propose New File` button to commit the post to a new branch in your own fork.
 
-You will be prompted to create a [pull request].  This step will need to be completed to actually submit your post.
+You will be prompted to create a [pull request] - this will submit your new post to this repo.
 
-Check the changes displayed are as expected (i.e. the content of your post), add any relevant info, and then hit `Send Pull Request`.
+Check the changes displayed are as expected, add any relevant info, and then hit `Send Pull Request`.
 
 [post metadata]: http://octopress.org/docs/blogging
 [markdown basics]: http://daringfireball.net/projects/markdown/basics
