@@ -30,13 +30,22 @@ ruby --version      # Should report Ruby 1.9.3
 Install dependencies, but do not run `rake install` (it's been done already).
 
 ```sh
-gem install bundler rake
-rbenv rehash        # Only needed with rbenv
+gem install bundler
+#rbenv rehash        # Only needed if you use rbenv
 bundle install
 ```
 
-If you have any problems, see the [octopress documentation] for more info on installing
-ruby and other dependencies.
+Test your installation by generating the site.
+
+```sh
+rake generate   # Generates posts and pages into the public directory
+```
+
+If you receive an error "You have already activated ..., but your Gemfile requires ...",
+then prefix the command with `bundle exec`.
+
+If you have any other problems, see the [octopress documentation] for more info on
+installing ruby and other dependencies.
 
 
 
@@ -46,7 +55,7 @@ Creating a new topic branch is preferred, especially for changes to the site's
 source (including templates and styles).
 
 ```sh
-git checkout -b myfix
+git checkout -b mypost
 ```
 
 Make your changes, such as a [new post or page] in [markdown] format.
@@ -72,11 +81,13 @@ rake preview	# Watches, and mounts a webserver at http://localhost:4000
 Commit changes, then push them to your fork.
 
 ```sh
-git commit -am "That fix, for the thing."
-git push origin myfix
+git add source/_posts/2011-07-03-zombie-ninjas-attack.md
+git commit -m "Post: zombie-ninjas-attack"
+git push origin mypost
 ```
 
-Submit a [pull request] to this repo (use the button shown on your new branch).
+Submit a [pull request] to this repo, using the button shown on github for your new
+branch.
 
 Once your changes are accepted, an admin will need to generate the site
 using `rake deploy` before they become live.
