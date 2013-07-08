@@ -22,23 +22,23 @@ by octopress and jekyll).
 [Fork this repo], then clone your fork's **source branch** locally.
 
 ```sh
-git clone -b source git@github.com:<yourusername>/snhack.github.com.git snhack
+git clone -b source https://github.com/<yourusername>/snhack.github.com.git snhack
 cd snhack
-ruby --version      # Should report Ruby 1.9.3
+ruby --version        # Should report Ruby 1.9.3
 ```
 
 Install dependencies, but do not run `rake install` (it's been done already).
 
 ```sh
 gem install bundler
-#rbenv rehash        # Only needed if you use rbenv
+#rbenv rehash         # Only needed if you use rbenv
 bundle install
 ```
 
 Test your installation by generating the site.
 
 ```sh
-rake generate   # Generates posts and pages into the public directory
+rake generate         # Generates posts and pages into the public directory
 ```
 
 If you receive an error *"You have already activated ..., but your Gemfile requires ..."*,
@@ -74,8 +74,8 @@ nano source/_posts/2011-07-03-zombie-ninjas-attack.md
 Generate and preview your changes locally at `http://localhost:4000`.
 
 ```sh
-rake generate   # Generates posts and pages into the public directory
-rake preview	# Watches, and mounts a webserver at http://localhost:4000
+rake generate         # Generates posts and pages into the public directory
+rake preview          # Watches, and mounts a webserver at http://localhost:4000
 ```
 
 Commit changes, then push them to your fork.
