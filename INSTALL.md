@@ -41,7 +41,7 @@ Test your installation by generating the site.
 rake generate   # Generates posts and pages into the public directory
 ```
 
-If you receive an error "You have already activated ..., but your Gemfile requires ...",
+If you receive an error *"You have already activated ..., but your Gemfile requires ..."*,
 then prefix the command with `bundle exec`.
 
 If you have any other problems, see the [octopress documentation] for more info on
