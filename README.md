@@ -11,7 +11,7 @@ preview this site locally.
 > Use this workflow when submitting a blog post using standard text or markdown.
 
 Load the [source/_posts] folder and use the [new file] icon above its listing.
-Github will automatically [fork] this project as required.  [**ℹ**][new-file]
+Github will automatically [fork] this project as required.  [ℹ][new-file]
 
 [new-file]: http://swindon.hackspace.org.uk/images/help/1-new-file.png
 [commit-file]: http://swindon.hackspace.org.uk/images/help/2-commit-file.png
@@ -39,7 +39,7 @@ You will be prompted to create a [pull request] - this will submit your new post
 repo.
 
 Check the file changes displayed are as expected, add any relevant info, and then hit
-`Send Pull Request`.  [***ℹ***][send-pull-request]
+`Send Pull Request`.  [*ℹ*][send-pull-request]
 
 [post metadata]: http://octopress.org/docs/blogging
 [markdown basics]: http://daringfireball.net/projects/markdown/basics
