@@ -12,7 +12,7 @@ preview this site locally.
 
 Load the [source/_posts] folder within the source branch, then use the [new file] icon above its listing.  [[show]][new-file]
 
-Github will automatically "[fork]" (create a copy) of this project for your new file, within your own account.
+*Github will automatically "[fork]" (create a copy of) this project for you, if you don't already have one.*
 
 [new-file]: http://swindon.hackspace.org.uk/images/help/1-new-file.png
 [commit-file]: http://swindon.hackspace.org.uk/images/help/2-commit-file.png
