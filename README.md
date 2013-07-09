@@ -11,7 +11,7 @@ preview this site locally.
 > Use this workflow when submitting a blog post using standard text or markdown.
 
 Load the [source/_posts] folder and use the [new file] icon above its listing.
-Github will automatically [fork] this project as required.  [ℹ][new-file]
+Github will automatically [fork] this project as required.  [][new-file]
 
 [new-file]: http://swindon.hackspace.org.uk/images/help/1-new-file.png
 [commit-file]: http://swindon.hackspace.org.uk/images/help/2-commit-file.png
