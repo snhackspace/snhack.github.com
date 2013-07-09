@@ -11,14 +11,18 @@ preview this site locally.
 > Use this workflow when submitting a blog post using standard text or markdown.
 
 Load the [source/_posts] folder and use the [new file] icon above its listing.
-Github will automatically [fork] this project as required.
+Github will automatically [fork] this project as required.  [ℹ][new-file]
+
+[new-file]: http://swindon.hackspace.org.uk/images/help/1-new-file.png
+[commit-file]: http://swindon.hackspace.org.uk/images/help/2-commit-file.png
+[send-pull-request]: http://swindon.hackspace.org.uk/images/help/3-send-pull-request.png
 
 [source/_posts]: https://github.com/snhack/snhack.github.com/tree/source/source/_posts
 [fork]: https://help.github.com/articles/fork-a-repo
 [pull request]: https://help.github.com/articles/using-pull-requests
 
 Name the new file using your preferred post date and title,
-according to the pattern: `YYYY-MM-DD-url-safe-title.md`.
+according to the pattern: `YYYY-MM-DD-url-safe-title.md`.  [ℹ][commit-file]
 
 [new file]: https://github.com/blog/1327-creating-files-on-github
 [naming it]: https://github.com/blog/1436-moving-and-renaming-files-on-github
@@ -35,7 +39,7 @@ You will be prompted to create a [pull request] - this will submit your new post
 repo.
 
 Check the file changes displayed are as expected, add any relevant info, and then hit
-`Send Pull Request`.
+`Send Pull Request`.  [ℹ][send-pull-request]
 
 [post metadata]: http://octopress.org/docs/blogging
 [markdown basics]: http://daringfireball.net/projects/markdown/basics
